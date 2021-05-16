@@ -1,0 +1,23 @@
+.blue {
+    background-color: #0099ff;
+}
+
+.red {
+    background-color: #ff5050;
+}
+
+.button {
+    opacity: 0.75;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 1;
+    animation: fade 0.5s;
+    box-shadow: 3px 3px white;
+}
+
+@keyframes fade {
+    0% {opacity: 0.75; box-shadow: 0 0 white;}
+    100% {opacity: 1; box-shadow: 3px 3px white;}
+}

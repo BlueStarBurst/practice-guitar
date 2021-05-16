@@ -1,0 +1,39 @@
+{
+  "scripts": {
+    "server": "node server/server.js",
+    "dev": "rimraf docs && cross-env NODE_ENV=development webpack --watch --progress --color --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/register": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^7.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "fs": "^0.0.1-security",
+    "html-webpack-plugin": "^4.5.1",
+    "https": "^1.0.0",
+    "lodash": "^4.17.20",
+    "node": "^15.4.0",
+    "path": "^0.12.7",
+    "raw-loader": "^4.0.2",
+    "rimraf": "^3.0.2",
+    "style-loader": "^2.0.0",
+    "uuid": "^8.3.2",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "ws": "^7.4.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "browser-window": "^0.4.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^17.0.1",
+    "remote": "^0.2.6"
+  }
+}
